@@ -3,7 +3,7 @@
 client_id = "6aaaa35dbf8d38493167331b1fc59e3c"
 name = "Just in Time Inventory"
 handle = "just-in-time-inventory"
-application_url = "https://calvin-mixer-seattle-bones.trycloudflare.com"
+application_url = "https://books-phases-mechanisms-justify.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://calvin-mixer-seattle-bones.trycloudflare.com/auth/callback", "https://calvin-mixer-seattle-bones.trycloudflare.com/auth/shopify/callback", "https://calvin-mixer-seattle-bones.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://books-phases-mechanisms-justify.trycloudflare.com/auth/callback", "https://books-phases-mechanisms-justify.trycloudflare.com/auth/shopify/callback", "https://books-phases-mechanisms-justify.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
