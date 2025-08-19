@@ -3,7 +3,7 @@
 client_id = "6aaaa35dbf8d38493167331b1fc59e3c"
 name = "Just in Time Inventory"
 handle = "just-in-time-inventory"
-application_url = "https://books-phases-mechanisms-justify.trycloudflare.com"
+application_url = "https://conditional-hamburg-dress-kodak.trycloudflare.com"
 embedded = true
 
 [build]
@@ -23,10 +23,10 @@ api_version = "2025-07"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products,read_products,read_inventory,read_locations"
 
 [auth]
-redirect_urls = ["https://books-phases-mechanisms-justify.trycloudflare.com/auth/callback", "https://books-phases-mechanisms-justify.trycloudflare.com/auth/shopify/callback", "https://books-phases-mechanisms-justify.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://conditional-hamburg-dress-kodak.trycloudflare.com/auth/callback", "https://conditional-hamburg-dress-kodak.trycloudflare.com/auth/shopify/callback", "https://conditional-hamburg-dress-kodak.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false

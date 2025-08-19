@@ -1,0 +1,24 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "e6dd2f39126e0a2886452540225e3aed"
+name = "just-in-time-inventory"
+handle = "just-in-time-inventory"
+application_url = "https://mirror-polo-fun-wal.trycloudflare.com"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-07"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_inventory,read_locations,read_products,write_products"
+
+[auth]
+redirect_urls = ["https://mirror-polo-fun-wal.trycloudflare.com/auth/callback", "https://mirror-polo-fun-wal.trycloudflare.com/auth/shopify/callback", "https://mirror-polo-fun-wal.trycloudflare.com/api/auth/callback"]
+
+[pos]
+embedded = false
