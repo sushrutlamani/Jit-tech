@@ -1,24 +1,24 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "e6dd2f39126e0a2886452540225e3aed"
+client_id = "2ae38869d2a4c498cb98f0a72ea78a81"
 name = "just-in-time-inventory"
-handle = "just-in-time-inventory"
-application_url = "https://mirror-polo-fun-wal.trycloudflare.com"
+handle = "jit-technology"
+application_url = "https://requests-ministries-degrees-consists.trycloudflare.com"
 embedded = true
 
 [build]
-include_config_on_deploy = true
 automatically_update_urls_on_dev = true
+include_config_on_deploy = true
 
 [webhooks]
 api_version = "2025-07"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_inventory,read_locations,read_products,write_products"
+scopes = "read_analytics, read_customer_events, read_customers, read_discounts, read_files, write_draft_orders, read_draft_orders, write_inventory, read_inventory, write_locations, read_locations, read_orders, read_products, read_reports, write_reports, read_returns, read_channels, read_shipping, read_content, read_inventory_shipments, read_inventory_shipments_received_items, read_inventory_transfers, read_themes, read_purchase_options, read_product_listings, read_product_feeds, read_order_edits, read_fulfillments"
 
 [auth]
-redirect_urls = ["https://mirror-polo-fun-wal.trycloudflare.com/auth/callback", "https://mirror-polo-fun-wal.trycloudflare.com/auth/shopify/callback", "https://mirror-polo-fun-wal.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://requests-ministries-degrees-consists.trycloudflare.com/auth/callback", "https://requests-ministries-degrees-consists.trycloudflare.com/auth/shopify/callback", "https://requests-ministries-degrees-consists.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false

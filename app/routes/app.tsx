@@ -28,6 +28,10 @@ export default function App() {
         <Link to="/app/pricing">Pricing</Link>
         <Link to="/app/inventory">Inventory</Link>
         <Link to="/app/dbtest">DB Test</Link>
+        <Link to="/app/ping-shopify">Ping Shopify</Link>
+        <Link to="/app/insert-event-test">Event Test</Link>
+        <Link to="/app/orders-first-page">First Page</Link>
+        <Link to="/app/backfill">Backfill</Link>
       </NavMenu>
       <Outlet />
     </AppProvider>
